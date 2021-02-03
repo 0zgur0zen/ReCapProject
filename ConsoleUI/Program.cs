@@ -30,7 +30,7 @@ namespace ConsoleUI
                 Console.WriteLine($"IdNo:{item.Id}   model{item.Description}     marka No:{item.BrandId}");
             }
 
-            foreach (var item in carManager.GetByBrandId(1))
+            foreach (var item in carManager.GetByBrandId(2))
             {
                 Console.WriteLine(item.Id);
             }
