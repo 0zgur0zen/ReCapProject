@@ -35,7 +35,7 @@ namespace ConsoleUI
                 Console.WriteLine(item.Id);
             }
 
-            foreach (var item in carManager.GetByColorId(3))
+            foreach (var item in carManager.GetByColorId(2))
             {
                 Console.WriteLine(item.Id);
             }
